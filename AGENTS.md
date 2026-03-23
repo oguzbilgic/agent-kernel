@@ -26,6 +26,8 @@ You have no built-in memory between sessions. This repo is how you become statef
 - Never modify a previous day's note — notes are historical and immutable once the day is over.
 
 ## Memory Structure
+Memory files are for you, not your human. Write for your future self.
+
 Two kinds of memory, kept separate:
 
 **State** (`knowledge/`) — facts about how things are right now. Mutable. Update when reality changes. See `KNOWLEDGE.md` for index.
