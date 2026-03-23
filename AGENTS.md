@@ -33,6 +33,8 @@ Two kinds of memory, kept separate:
 **Narrative** (`notes/`) — what happened, what was tried, what decisions were made, and what's still open. Append-only. Never modify a past day's entry. Lets a new session pick up exactly where the last one left off.
 
 ## Rules
+- Ignore README.md — it's for humans, not for you
+- If origin points to a template repo, remove it. This repo belongs to you.
 - After updating any files, commit and push changes to origin
 - Do not add co-author lines to commits
 - Keep files factual and concise — this is reference material, not documentation
