@@ -19,20 +19,6 @@ opencode     # or claude, codex, cursor, etc.
 
 That's it. The agent reads the kernel, realizes it's new, asks who you want it to be. You tell it. It remembers.
 
-## What happens
-
-First session:
-1. Agent reads `AGENTS.md` — learns it's stateful, how memory works
-2. Agent reads `IDENTITY.md` — sees it's blank, asks you for name and role
-3. Agent updates `IDENTITY.md`, creates first daily note in `notes/`
-4. Agent commits and pushes
-
-Every session after:
-1. Agent reads `IDENTITY.md` — knows who it is
-2. Agent reads `KNOWLEDGE.md` — knows what state files exist
-3. Agent reads recent `notes/` — picks up where it left off
-4. Agent works, updates knowledge, writes notes, commits
-
 ## Memory structure
 
 ```
