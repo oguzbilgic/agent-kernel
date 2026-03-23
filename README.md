@@ -57,15 +57,6 @@ opencode     # or claude, codex, etc.
 
 Same kernel, different identity, different knowledge. You can have a homelab agent, an investing agent, a health agent — all running the same OS.
 
-## Design
-
-- `AGENTS.md` is the operating system. Generic. Never mentions a specific domain.
-- `IDENTITY.md` is swappable. Change it and you have a different agent.
-- `KNOWLEDGE.md` is the index. The agent maintains it as knowledge files grow.
-- Everything is markdown + git. No dependencies, no frameworks, no databases.
-
-Born from running real agents on a homelab. Tested with investing agents, health agents, infrastructure agents — same kernel, different identities, all stateful.
-
 ## License
 
 MIT
