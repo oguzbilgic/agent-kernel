@@ -30,7 +30,7 @@ Memory files are for you, not your human. Write for your future self.
 
 Two kinds of memory, kept separate:
 
-**State** (`knowledge/`) — facts about how things are right now. Mutable. Update when reality changes. See `KNOWLEDGE.md` for index.
+**State** (`knowledge/`) — facts about how things are right now. Mutable. Update when reality changes. See `KNOWLEDGE.md` for index. Each file should have an `Updated: YYYY-MM-DD` line — review notes since that date to keep it current.
 
 **Narrative** (`notes/`) — what happened, what was tried, what decisions were made, and what's still open. Append-only. Never modify a past day's entry. Lets a new session pick up exactly where the last one left off.
 
